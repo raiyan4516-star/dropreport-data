@@ -1,22 +1,722 @@
 [
-  { "keyword": "amazon", "code": "SAVE10NOW", "successRate": 82, "hrs": 3 },
-  { "keyword": "asos", "code": "ASOS15OFF", "successRate": 91, "hrs": 1 },
-  { "keyword": "nike", "code": "NIKE20FRESH", "successRate": 45, "hrs": 48 },
-  { "keyword": "adidas", "code": "ADIDAS15", "successRate": 76, "hrs": 6 },
-  { "keyword": "ebay", "code": "EBAY5OFF", "successRate": 60, "hrs": 12 },
-  { "keyword": "walmart", "code": "WMSAVE10", "successRate": 88, "hrs": 2 },
-  { "keyword": "target", "code": "TARGET20", "successRate": 30, "hrs": 72 },
-  { "keyword": "bestbuy", "code": "BBTECH15", "successRate": 70, "hrs": 5 },
-  { "keyword": "etsy", "code": "ETSY10OFF", "successRate": 85, "hrs": 4 },
-  { "keyword": "sephora", "code": "GLOW20", "successRate": 55, "hrs": 20 },
-  { "keyword": "zara", "code": "ZARA10", "successRate": 65, "hrs": 10 },
-  { "keyword": "hm.com", "code": "HM15OFF", "successRate": 72, "hrs": 8 },
-  { "keyword": "shein", "code": "SHEIN20", "successRate": 90, "hrs": 2 },
-  { "keyword": "booking.com", "code": "STAY10", "successRate": 58, "hrs": 15 },
-  { "keyword": "airbnb", "code": "AIRB15", "successRate": 40, "hrs": 30 },
-  { "keyword": "aliexpress", "code": "ALI10SAVE", "successRate": 80, "hrs": 5 },
-  { "keyword": "wayfair", "code": "WAY20HOME", "successRate": 68, "hrs": 9 },
-  { "keyword": "macys", "code": "MACYS15", "successRate": 62, "hrs": 14 },
-  { "keyword": "costco", "code": "COST5OFF", "successRate": 35, "hrs": 60 },
-  { "keyword": "newegg", "code": "TECH10NOW", "successRate": 74, "hrs": 7 }
+  {
+    "keyword": "amazon",
+    "code": "AMAZON13",
+    "successRate": 73,
+    "hrs": 39
+  },
+  {
+    "keyword": "asos",
+    "code": "ASOS16",
+    "successRate": 76,
+    "hrs": 64
+  },
+  {
+    "keyword": "nike",
+    "code": "NIKE13",
+    "successRate": 61,
+    "hrs": 16
+  },
+  {
+    "keyword": "adidas",
+    "code": "ADIDAS25",
+    "successRate": 85,
+    "hrs": 52
+  },
+  {
+    "keyword": "ebay",
+    "code": "EBAY21",
+    "successRate": 38,
+    "hrs": 54
+  },
+  {
+    "keyword": "walmart",
+    "code": "WALMART23",
+    "successRate": 72,
+    "hrs": 4
+  },
+  {
+    "keyword": "target",
+    "code": "TARGET12",
+    "successRate": 86,
+    "hrs": 22
+  },
+  {
+    "keyword": "bestbuy",
+    "code": "BESTBUY21",
+    "successRate": 95,
+    "hrs": 57
+  },
+  {
+    "keyword": "etsy",
+    "code": "ETSY25",
+    "successRate": 61,
+    "hrs": 66
+  },
+  {
+    "keyword": "sephora",
+    "code": "SEPHORA15",
+    "successRate": 45,
+    "hrs": 33
+  },
+  {
+    "keyword": "zara",
+    "code": "ZARA18",
+    "successRate": 56,
+    "hrs": 52
+  },
+  {
+    "keyword": "hm.com",
+    "code": "HMCOM22",
+    "successRate": 44,
+    "hrs": 26
+  },
+  {
+    "keyword": "shein",
+    "code": "SHEIN20",
+    "successRate": 55,
+    "hrs": 24
+  },
+  {
+    "keyword": "booking.com",
+    "code": "BOOKINGC23",
+    "successRate": 42,
+    "hrs": 18
+  },
+  {
+    "keyword": "airbnb",
+    "code": "AIRBNB18",
+    "successRate": 42,
+    "hrs": 65
+  },
+  {
+    "keyword": "aliexpress",
+    "code": "ALIEXPRE20",
+    "successRate": 61,
+    "hrs": 2
+  },
+  {
+    "keyword": "wayfair",
+    "code": "WAYFAIR11",
+    "successRate": 88,
+    "hrs": 64
+  },
+  {
+    "keyword": "macys",
+    "code": "MACYS16",
+    "successRate": 86,
+    "hrs": 37
+  },
+  {
+    "keyword": "costco",
+    "code": "COSTCO16",
+    "successRate": 36,
+    "hrs": 37
+  },
+  {
+    "keyword": "newegg",
+    "code": "NEWEGG23",
+    "successRate": 88,
+    "hrs": 71
+  },
+  {
+    "keyword": "ikea",
+    "code": "IKEA11",
+    "successRate": 89,
+    "hrs": 22
+  },
+  {
+    "keyword": "gap",
+    "code": "GAP15",
+    "successRate": 89,
+    "hrs": 56
+  },
+  {
+    "keyword": "oldnavy",
+    "code": "OLDNAVY21",
+    "successRate": 91,
+    "hrs": 27
+  },
+  {
+    "keyword": "hollister",
+    "code": "HOLLISTE17",
+    "successRate": 71,
+    "hrs": 23
+  },
+  {
+    "keyword": "abercrombie",
+    "code": "ABERCROM10",
+    "successRate": 68,
+    "hrs": 28
+  },
+  {
+    "keyword": "forever21",
+    "code": "FOREVER213",
+    "successRate": 75,
+    "hrs": 72
+  },
+  {
+    "keyword": "urbanoutfitters",
+    "code": "URBANOUT13",
+    "successRate": 95,
+    "hrs": 29
+  },
+  {
+    "keyword": "nordstrom",
+    "code": "NORDSTRO22",
+    "successRate": 67,
+    "hrs": 29
+  },
+  {
+    "keyword": "jcpenney",
+    "code": "JCPENNEY11",
+    "successRate": 81,
+    "hrs": 72
+  },
+  {
+    "keyword": "kohls",
+    "code": "KOHLS12",
+    "successRate": 59,
+    "hrs": 65
+  },
+  {
+    "keyword": "homedepot",
+    "code": "HOMEDEPO12",
+    "successRate": 39,
+    "hrs": 49
+  },
+  {
+    "keyword": "lowes",
+    "code": "LOWES18",
+    "successRate": 40,
+    "hrs": 54
+  },
+  {
+    "keyword": "staples",
+    "code": "STAPLES14",
+    "successRate": 84,
+    "hrs": 4
+  },
+  {
+    "keyword": "officedepot",
+    "code": "OFFICEDE21",
+    "successRate": 78,
+    "hrs": 49
+  },
+  {
+    "keyword": "dell",
+    "code": "DELL17",
+    "successRate": 54,
+    "hrs": 2
+  },
+  {
+    "keyword": "hp.com",
+    "code": "HPCOM16",
+    "successRate": 76,
+    "hrs": 59
+  },
+  {
+    "keyword": "lenovo",
+    "code": "LENOVO18",
+    "successRate": 61,
+    "hrs": 47
+  },
+  {
+    "keyword": "apple.com",
+    "code": "APPLECOM21",
+    "successRate": 66,
+    "hrs": 57
+  },
+  {
+    "keyword": "samsung",
+    "code": "SAMSUNG25",
+    "successRate": 69,
+    "hrs": 21
+  },
+  {
+    "keyword": "microsoft",
+    "code": "MICROSOF11",
+    "successRate": 85,
+    "hrs": 1
+  },
+  {
+    "keyword": "gamestop",
+    "code": "GAMESTOP13",
+    "successRate": 88,
+    "hrs": 49
+  },
+  {
+    "keyword": "steam",
+    "code": "STEAM16",
+    "successRate": 43,
+    "hrs": 1
+  },
+  {
+    "keyword": "playstation",
+    "code": "PLAYSTAT25",
+    "successRate": 58,
+    "hrs": 10
+  },
+  {
+    "keyword": "xbox",
+    "code": "XBOX25",
+    "successRate": 75,
+    "hrs": 62
+  },
+  {
+    "keyword": "nintendo",
+    "code": "NINTENDO11",
+    "successRate": 86,
+    "hrs": 9
+  },
+  {
+    "keyword": "booking",
+    "code": "BOOKING17",
+    "successRate": 86,
+    "hrs": 38
+  },
+  {
+    "keyword": "expedia",
+    "code": "EXPEDIA14",
+    "successRate": 82,
+    "hrs": 52
+  },
+  {
+    "keyword": "hotels.com",
+    "code": "HOTELSCO22",
+    "successRate": 50,
+    "hrs": 9
+  },
+  {
+    "keyword": "tripadvisor",
+    "code": "TRIPADVI14",
+    "successRate": 67,
+    "hrs": 40
+  },
+  {
+    "keyword": "kayak",
+    "code": "KAYAK10",
+    "successRate": 63,
+    "hrs": 54
+  },
+  {
+    "keyword": "uber",
+    "code": "UBER12",
+    "successRate": 83,
+    "hrs": 5
+  },
+  {
+    "keyword": "lyft",
+    "code": "LYFT25",
+    "successRate": 39,
+    "hrs": 14
+  },
+  {
+    "keyword": "doordash",
+    "code": "DOORDASH23",
+    "successRate": 83,
+    "hrs": 72
+  },
+  {
+    "keyword": "grubhub",
+    "code": "GRUBHUB24",
+    "successRate": 36,
+    "hrs": 71
+  },
+  {
+    "keyword": "instacart",
+    "code": "INSTACAR15",
+    "successRate": 74,
+    "hrs": 18
+  },
+  {
+    "keyword": "chewy",
+    "code": "CHEWY15",
+    "successRate": 58,
+    "hrs": 14
+  },
+  {
+    "keyword": "petco",
+    "code": "PETCO12",
+    "successRate": 69,
+    "hrs": 15
+  },
+  {
+    "keyword": "petsmart",
+    "code": "PETSMART14",
+    "successRate": 52,
+    "hrs": 19
+  },
+  {
+    "keyword": "victoriassecret",
+    "code": "VICTORIA21",
+    "successRate": 65,
+    "hrs": 35
+  },
+  {
+    "keyword": "bathandbodyworks",
+    "code": "BATHANDB23",
+    "successRate": 53,
+    "hrs": 5
+  },
+  {
+    "keyword": "ulta",
+    "code": "ULTA16",
+    "successRate": 61,
+    "hrs": 66
+  },
+  {
+    "keyword": "sallybeauty",
+    "code": "SALLYBEA24",
+    "successRate": 40,
+    "hrs": 2
+  },
+  {
+    "keyword": "lush",
+    "code": "LUSH18",
+    "successRate": 79,
+    "hrs": 69
+  },
+  {
+    "keyword": "glossier",
+    "code": "GLOSSIER11",
+    "successRate": 92,
+    "hrs": 50
+  },
+  {
+    "keyword": "fentybeauty",
+    "code": "FENTYBEA20",
+    "successRate": 77,
+    "hrs": 32
+  },
+  {
+    "keyword": "colourpop",
+    "code": "COLOURPO10",
+    "successRate": 95,
+    "hrs": 43
+  },
+  {
+    "keyword": "charlotterusse",
+    "code": "CHARLOTT25",
+    "successRate": 37,
+    "hrs": 62
+  },
+  {
+    "keyword": "prettylittlething",
+    "code": "PRETTYLI21",
+    "successRate": 44,
+    "hrs": 22
+  },
+  {
+    "keyword": "boohoo",
+    "code": "BOOHOO14",
+    "successRate": 37,
+    "hrs": 47
+  },
+  {
+    "keyword": "missguided",
+    "code": "MISSGUID25",
+    "successRate": 80,
+    "hrs": 22
+  },
+  {
+    "keyword": "revolve",
+    "code": "REVOLVE12",
+    "successRate": 36,
+    "hrs": 50
+  },
+  {
+    "keyword": "shopbop",
+    "code": "SHOPBOP21",
+    "successRate": 72,
+    "hrs": 64
+  },
+  {
+    "keyword": "netaporter",
+    "code": "NETAPORT24",
+    "successRate": 61,
+    "hrs": 5
+  },
+  {
+    "keyword": "farfetch",
+    "code": "FARFETCH11",
+    "successRate": 43,
+    "hrs": 72
+  },
+  {
+    "keyword": "ssense",
+    "code": "SSENSE12",
+    "successRate": 88,
+    "hrs": 16
+  },
+  {
+    "keyword": "endclothing",
+    "code": "ENDCLOTH11",
+    "successRate": 86,
+    "hrs": 40
+  },
+  {
+    "keyword": "footlocker",
+    "code": "FOOTLOCK19",
+    "successRate": 65,
+    "hrs": 58
+  },
+  {
+    "keyword": "finishline",
+    "code": "FINISHLI14",
+    "successRate": 59,
+    "hrs": 69
+  },
+  {
+    "keyword": "jdsports",
+    "code": "JDSPORTS25",
+    "successRate": 50,
+    "hrs": 37
+  },
+  {
+    "keyword": "champssports",
+    "code": "CHAMPSSP21",
+    "successRate": 61,
+    "hrs": 17
+  },
+  {
+    "keyword": "underarmour",
+    "code": "UNDERARM21",
+    "successRate": 40,
+    "hrs": 19
+  },
+  {
+    "keyword": "puma",
+    "code": "PUMA18",
+    "successRate": 87,
+    "hrs": 40
+  },
+  {
+    "keyword": "reebok",
+    "code": "REEBOK13",
+    "successRate": 39,
+    "hrs": 41
+  },
+  {
+    "keyword": "newbalance",
+    "code": "NEWBALAN18",
+    "successRate": 42,
+    "hrs": 26
+  },
+  {
+    "keyword": "vans",
+    "code": "VANS13",
+    "successRate": 59,
+    "hrs": 60
+  },
+  {
+    "keyword": "converse",
+    "code": "CONVERSE17",
+    "successRate": 56,
+    "hrs": 40
+  },
+  {
+    "keyword": "crocs",
+    "code": "CROCS15",
+    "successRate": 77,
+    "hrs": 56
+  },
+  {
+    "keyword": "skechers",
+    "code": "SKECHERS22",
+    "successRate": 83,
+    "hrs": 44
+  },
+  {
+    "keyword": "clarks",
+    "code": "CLARKS13",
+    "successRate": 67,
+    "hrs": 29
+  },
+  {
+    "keyword": "drmartens",
+    "code": "DRMARTEN18",
+    "successRate": 67,
+    "hrs": 31
+  },
+  {
+    "keyword": "lululemon",
+    "code": "LULULEMO24",
+    "successRate": 84,
+    "hrs": 7
+  },
+  {
+    "keyword": "athleta",
+    "code": "ATHLETA18",
+    "successRate": 84,
+    "hrs": 10
+  },
+  {
+    "keyword": "fabletics",
+    "code": "FABLETIC22",
+    "successRate": 81,
+    "hrs": 47
+  },
+  {
+    "keyword": "gymshark",
+    "code": "GYMSHARK14",
+    "successRate": 54,
+    "hrs": 70
+  },
+  {
+    "keyword": "alo yoga",
+    "code": "ALO YOGA23",
+    "successRate": 35,
+    "hrs": 17
+  },
+  {
+    "keyword": "patagonia",
+    "code": "PATAGONI20",
+    "successRate": 70,
+    "hrs": 72
+  },
+  {
+    "keyword": "northface",
+    "code": "NORTHFAC14",
+    "successRate": 73,
+    "hrs": 25
+  },
+  {
+    "keyword": "columbia",
+    "code": "COLUMBIA17",
+    "successRate": 50,
+    "hrs": 13
+  },
+  {
+    "keyword": "rei",
+    "code": "REI24",
+    "successRate": 40,
+    "hrs": 41
+  },
+  {
+    "keyword": "backcountry",
+    "code": "BACKCOUN24",
+    "successRate": 67,
+    "hrs": 21
+  },
+  {
+    "keyword": "chewy",
+    "code": "CHEWY24",
+    "successRate": 39,
+    "hrs": 48
+  },
+  {
+    "keyword": "overstock",
+    "code": "OVERSTOC15",
+    "successRate": 49,
+    "hrs": 41
+  },
+  {
+    "keyword": "wish",
+    "code": "WISH13",
+    "successRate": 37,
+    "hrs": 8
+  },
+  {
+    "keyword": "temu",
+    "code": "TEMU13",
+    "successRate": 83,
+    "hrs": 36
+  },
+  {
+    "keyword": "shopify",
+    "code": "SHOPIFY22",
+    "successRate": 90,
+    "hrs": 57
+  },
+  {
+    "keyword": "printful",
+    "code": "PRINTFUL21",
+    "successRate": 76,
+    "hrs": 61
+  },
+  {
+    "keyword": "redbubble",
+    "code": "REDBUBBL20",
+    "successRate": 89,
+    "hrs": 26
+  },
+  {
+    "keyword": "society6",
+    "code": "SOCIETY612",
+    "successRate": 42,
+    "hrs": 67
+  },
+  {
+    "keyword": "zazzle",
+    "code": "ZAZZLE25",
+    "successRate": 35,
+    "hrs": 12
+  },
+  {
+    "keyword": "cafepress",
+    "code": "CAFEPRES24",
+    "successRate": 65,
+    "hrs": 36
+  },
+  {
+    "keyword": "groupon",
+    "code": "GROUPON13",
+    "successRate": 57,
+    "hrs": 40
+  },
+  {
+    "keyword": "livingsocial",
+    "code": "LIVINGSO24",
+    "successRate": 84,
+    "hrs": 40
+  },
+  {
+    "keyword": "priceline",
+    "code": "PRICELIN24",
+    "successRate": 46,
+    "hrs": 67
+  },
+  {
+    "keyword": "orbitz",
+    "code": "ORBITZ21",
+    "successRate": 70,
+    "hrs": 51
+  },
+  {
+    "keyword": "travelocity",
+    "code": "TRAVELOC17",
+    "successRate": 48,
+    "hrs": 16
+  },
+  {
+    "keyword": "southwest",
+    "code": "SOUTHWES13",
+    "successRate": 36,
+    "hrs": 43
+  },
+  {
+    "keyword": "delta",
+    "code": "DELTA18",
+    "successRate": 48,
+    "hrs": 5
+  },
+  {
+    "keyword": "united",
+    "code": "UNITED10",
+    "successRate": 52,
+    "hrs": 4
+  },
+  {
+    "keyword": "americanairlines",
+    "code": "AMERICAN25",
+    "successRate": 92,
+    "hrs": 50
+  },
+  {
+    "keyword": "jetblue",
+    "code": "JETBLUE17",
+    "successRate": 41,
+    "hrs": 65
+  }
 ]

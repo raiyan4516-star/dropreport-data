@@ -1,10 +1,9 @@
 [
-  {
-    "keyword": "amazon",
-    "code": "AMAZON13",
-    "successRate": 73,
-    "hrs": 39
-  },
+  { "keyword": "amazon", "codes": [
+  { "code": "SAVE10NOW", "successRate": 82, "hrs": 3 },
+  { "code": "AMZ15FIRST", "successRate": 60, "hrs": 10 },
+  { "code": "PRIME5OFF", "successRate": 90, "hrs": 1 }
+]},
   {
     "keyword": "asos",
     "code": "ASOS16",

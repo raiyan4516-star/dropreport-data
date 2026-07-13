@@ -1,0 +1,22 @@
+[
+  { "keyword": "amazon", "code": "SAVE10NOW", "successRate": 82, "hrs": 3 },
+  { "keyword": "asos", "code": "ASOS15OFF", "successRate": 91, "hrs": 1 },
+  { "keyword": "nike", "code": "NIKE20FRESH", "successRate": 45, "hrs": 48 },
+  { "keyword": "adidas", "code": "ADIDAS15", "successRate": 76, "hrs": 6 },
+  { "keyword": "ebay", "code": "EBAY5OFF", "successRate": 60, "hrs": 12 },
+  { "keyword": "walmart", "code": "WMSAVE10", "successRate": 88, "hrs": 2 },
+  { "keyword": "target", "code": "TARGET20", "successRate": 30, "hrs": 72 },
+  { "keyword": "bestbuy", "code": "BBTECH15", "successRate": 70, "hrs": 5 },
+  { "keyword": "etsy", "code": "ETSY10OFF", "successRate": 85, "hrs": 4 },
+  { "keyword": "sephora", "code": "GLOW20", "successRate": 55, "hrs": 20 },
+  { "keyword": "zara", "code": "ZARA10", "successRate": 65, "hrs": 10 },
+  { "keyword": "hm.com", "code": "HM15OFF", "successRate": 72, "hrs": 8 },
+  { "keyword": "shein", "code": "SHEIN20", "successRate": 90, "hrs": 2 },
+  { "keyword": "booking.com", "code": "STAY10", "successRate": 58, "hrs": 15 },
+  { "keyword": "airbnb", "code": "AIRB15", "successRate": 40, "hrs": 30 },
+  { "keyword": "aliexpress", "code": "ALI10SAVE", "successRate": 80, "hrs": 5 },
+  { "keyword": "wayfair", "code": "WAY20HOME", "successRate": 68, "hrs": 9 },
+  { "keyword": "macys", "code": "MACYS15", "successRate": 62, "hrs": 14 },
+  { "keyword": "costco", "code": "COST5OFF", "successRate": 35, "hrs": 60 },
+  { "keyword": "newegg", "code": "TECH10NOW", "successRate": 74, "hrs": 7 }
+]
